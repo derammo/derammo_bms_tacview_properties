@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.5">
+	<DefaultProperties Id="AntiAircraft.SAM.SA-2.TR" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>SNR-75</Name>
+			<Name>Fan Song</Name>		<!-- SuperBug -->
+			<Name>Fan Song E</Name>		<!-- BMS -->
+			<Name>SA-2 TR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Fan Song</ShortName>
+			<LongName>SA-2 Guideline (Fan Song E TR)</LongName>
+			<FullName>SA-2 Guideline (SNR-75 Fan Song E Tracking Radar)</FullName>
+			<EngagementRange>33000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+    <DefaultProperties Id="AntiAircraft.SAM.SA-2.SR" Base="AntiAircraft.SAM.SearchRadar.Truck">
+		<Criteria>
+			<Name>Spoon Rest</Name>		<!-- BMS -->
+			<Name>SA-2 SR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Spoon Rest</ShortName>
+			<LongName>SA-2 Guideline (SR)</LongName>
+			<FullName>SA-2 Guideline (S-75 P-12 Spoon Rest Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+    <DefaultProperties Id="AntiAircraft.SAM.SA-3.TR" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>snr s-125 tr</Name>
+			<Name>Low Blow</Name>
+			<Name>SA-3 TR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Low Blow</ShortName>
+			<LongName>SA-3 Goa (TR Low Blow)</LongName>
+			<FullName>SA-3 Goa (S-125 Low Blow Tracking Radar)</FullName>
+			<EngagementRange>14000</EngagementRange>
+			<Shape>AntiAircraft.SAM.SA-3.SNR-125.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+    <DefaultProperties Id="AntiAircraft.SAM.SA-3.P-19" Base="AntiAircraft.SAM.SearchRadar.Truck">
+		<Criteria>
+			<Name>P-19 s-125 sr</Name>
+			<Name>SA-3 SR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flat Face B</ShortName>
+			<LongName>SA-3 Goa (SR)</LongName>
+			<FullName>SA-3 Goa (S-125 P-19 Search Radar)</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	<DefaultProperties Id="AntiAircraft.SAM.SA-3.P-15" Base="AntiAircraft.SAM.SearchRadar.Truck">
+		<Criteria>
+			<Name>P-15 Flat Face</Name>
+			<Name>Flat Face</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flat Face A</ShortName>
+			<FullName>SA-3 Goa (S-125 P-15 SR)</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+</DefaultPropertiesCollection>
+<!-- 
+
+INSTALL:
+
+create some .xml file in %APPDATA%\Tacview\Data\Database\Default Properties\
+with these contents
+
+-->

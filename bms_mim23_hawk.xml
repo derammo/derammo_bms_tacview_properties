@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.5">
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.AN/MPQ-46" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
+			<Name>Hawk tr</Name>		<!-- DCS World 2.2 -->
+			<Name>AN/MPQ-46 RDR</Name>	<!-- BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>AN/MPQ-46 RDR</ShortName>
+			<LongName>MIM-23 Hawk (AN/MPQ-46 TR)</LongName>
+			<FullName>MIM-23 Hawk (AN/MPQ-46 Tracking Radar)</FullName>
+			<!-- <EngagementRange>45000</EngagementRange> -->
+			<EngagementRange>26000</EngagementRange> <!-- BMS 4.73 database entry for missile itself, pretty close to where they shoot -->
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.M192" Base="AntiAircraft.SAM.Launcher">
+		<Criteria>
+			<Name>Hawk ln</Name>		<!-- DCS World 2.2 -->
+			<Name>MIM23 Hawk</Name>		<!-- BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>MIM-23 Hawk</ShortName>
+			<LongName>MIM-23 Hawk (M192 LN)</LongName>
+			<FullName>MIM-23 Hawk (M192 Launcher)</FullName>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.AN/MPQ-50" Base="AntiAircraft.SAM.SearchRadar">
+		<Criteria>
+			<Name>Hawk sr</Name>		<!-- DCS World 2.2 -->
+			<Name>AN/MPQ-50 RDR</Name>	<!-- BMS -->
+		</Criteria>
+		<Properties>
+			<ShortName>AN/MPQ-50 RDR</ShortName>
+			<LongName>MIM-23 Hawk (AN/MPQ-50 SR)</LongName>
+			<FullName>MIM-23 Hawk (AN/MPQ-50 Search Radar)</FullName>
+		</Properties>
+	</DefaultProperties>
+</DefaultPropertiesCollection>
+<!-- 
+
+INSTALL:
+
+create some .xml file in %APPDATA%\Tacview\Data\Database\Default Properties\
+with these contents
+
+-->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultPropertiesCollection LoadingOrder="0.5">
+	<DefaultProperties Id="Core.AntiAircraft" Base="Core.Vehicle">
+		<Criteria>
+			<Type>Ground</Type>
+		</Criteria>
+	</DefaultProperties>
+</DefaultPropertiesCollection>
+<!-- 
+
+INSTALL:
+
+create some .xml file in %APPDATA%\Tacview\Data\Database\Default Properties\
+with these contents
+
+-->
