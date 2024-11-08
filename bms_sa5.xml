@@ -3,37 +3,37 @@
     <DefaultProperties Id="AntiAircraft.SAM.SA-5.P-37" Base="AntiAircraft.SAM.SearchRadar">
         <Criteria>
             <Name>Bar Lock B</Name>
-            <Name>Barlock-B</Name>            <!-- BMS Israel -->
+            <Name>Barlock-B</Name> <!-- BMS -->
             <Name>SA-5 SR</Name>
         </Criteria>
         <Properties>
+            <!-- don't just call this "SA-5" on the map, which is what stock config does -->
             <ShortName>Bar Lock</ShortName>
             <LongName>SA-5 Gammon (SR)</LongName>
             <FullName>SA-5 Gammon (P-37 Bar Lock B Search Radar)</FullName>
         </Properties>
     </DefaultProperties>
-    <DefaultProperties Id="AntiAircraft.SAM.SA-5.Launcher" Base="AntiAircraft.SAM.Launcher.Russian">
+    <DefaultProperties Id="AntiAircraft.SAM.SA-5.5N62" Base="AntiAircraft.SAM.TrackingRadar">
         <Criteria>
-            <Name>SA-5</Name>            <!-- BMS Israel -->
-            <Name>SA-5 LN</Name>
+            <!-- select this for non-BMS by removing name BMS uses (see below) -->
+            <Name>5N62</Name>
+            <Name>SA-5 TR</Name>
         </Criteria>
         <Properties>
             <ShortName>SA-5</ShortName>
-            <LongName>SA-5 Gammon (LN)</LongName>
-            <FullName>SA-5 Gammon (Launcher)</FullName>
+            <LongName>SA-5 Gammon (TR)</LongName>
+            <FullName>SA-5 Gammon (5N62 Square Pair Tracking Radar)</FullName>
+            <EngagementRange>180000</EngagementRange>
         </Properties>
     </DefaultProperties>
-    <DefaultProperties Id="AntiAircraft.SAM.SA-5.5N62" Base="AntiAircraft.SAM.TrackingRadar">
+        <DefaultProperties Id="AntiAircraft.SAM.SA-5.5N62_BMS" Base="AntiAircraft.SAM.TrackingRadar">
         <Criteria>
-            <Name>Square Pair</Name>            <!-- BMS Israel -->
-            <Name>5N62</Name>
-            <Name>SA-5 TR</Name>
+            <Name>Square Pair</Name> <!-- BMS -->
         </Criteria>
         <Properties>
             <ShortName>Square Pair</ShortName>
             <LongName>SA-5 Gammon (TR)</LongName>
             <FullName>SA-5 Gammon (5N62 Square Pair Tracking Radar)</FullName>
-            <!-- <EngagementRange>180000</EngagementRange> -->
             <EngagementRange>100000</EngagementRange>            <!-- BMS 4.73 -->
         </Properties>
     </DefaultProperties>

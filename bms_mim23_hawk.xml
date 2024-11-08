@@ -3,17 +3,25 @@
 	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.AN/MPQ-46" Base="AntiAircraft.SAM.TrackingRadar">
 		<Criteria>
 			<Name>Hawk tr</Name>		<!-- DCS World 2.2 -->
+		</Criteria>
+		<Properties>
+			<ShortName>AN/MPQ-46 RDR</ShortName>
+			<LongName>MIM-23 Hawk (AN/MPQ-46 TR)</LongName>
+			<FullName>MIM-23 Hawk (AN/MPQ-46 Tracking Radar)</FullName>
+			<EngagementRange>45000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.AN/MPQ-46_BMS" Base="AntiAircraft.SAM.TrackingRadar">
+		<Criteria>
 			<Name>AN/MPQ-46 RDR</Name>	<!-- BMS -->
 		</Criteria>
 		<Properties>
 			<ShortName>AN/MPQ-46 RDR</ShortName>
 			<LongName>MIM-23 Hawk (AN/MPQ-46 TR)</LongName>
 			<FullName>MIM-23 Hawk (AN/MPQ-46 Tracking Radar)</FullName>
-			<!-- <EngagementRange>45000</EngagementRange> -->
 			<EngagementRange>26000</EngagementRange> <!-- BMS 4.73 database entry for missile itself, pretty close to where they shoot -->
 		</Properties>
 	</DefaultProperties>
-
 	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.M192" Base="AntiAircraft.SAM.Launcher">
 		<Criteria>
 			<Name>Hawk ln</Name>		<!-- DCS World 2.2 -->
@@ -25,7 +33,6 @@
 			<FullName>MIM-23 Hawk (M192 Launcher)</FullName>
 		</Properties>
 	</DefaultProperties>
-
 	<DefaultProperties Id="AntiAircraft.SAM.MIM-23.AN/MPQ-50" Base="AntiAircraft.SAM.SearchRadar">
 		<Criteria>
 			<Name>Hawk sr</Name>		<!-- DCS World 2.2 -->
