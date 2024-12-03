@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- No longer matches S-60 record to runway lights, apparently a bug? -->
+<DefaultPropertiesCollection LoadingOrder="0.5">
+	<DefaultProperties Id="AntiAircraft.S-60" Base="AntiAircraft.AAA">
+		<Criteria>
+			<Type>AntiAircraft</Type>
+			<Name>S-60</Name> 
+		</Criteria>
+		<Properties>
+			<ShortName>S-60</ShortName>
+			<LongName>S-60</LongName>
+			<FullName>S-60</FullName>
+			<EngagementRange>4000</EngagementRange>
+		</Properties>
+	</DefaultProperties>
+</DefaultPropertiesCollection>
+<!-- 
+
+INSTALL:
+
+create some .xml file in %APPDATA%\Tacview\Data\Database\Default Properties\
+with these contents
+
+-->
