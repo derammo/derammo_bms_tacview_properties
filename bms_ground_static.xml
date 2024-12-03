@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <!-- Maps Gound+Static objects (all buildings and decorations) to white boxes by default. -->
 <DefaultPropertiesCollection LoadingOrder="0.5">
-	<DefaultProperties Id="Core.Building_BMS" Base="Core.Building">
-		<Criteria>
-			<Type>Ground+Static</Type>
-			<Name>*</Name>
-		</Criteria>
+    <DefaultProperties Id="Core.Building_BMS" Base="Core.Building">
+        <Criteria>
+            <Type>Ground+Static</Type>
+            <Name>*</Name>
+        </Criteria>
         <Properties>
-			<AdditionalType>Ground+Static+Building</AdditionalType>
-			<Color>White</Color>
-		</Properties>
-	</DefaultProperties>
+            <AdditionalType>Ground+Static+Building</AdditionalType>
+            <Color>White</Color>
+        </Properties>
+    </DefaultProperties>
 </DefaultPropertiesCollection>
 <!-- 
 

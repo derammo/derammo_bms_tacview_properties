@@ -4,7 +4,7 @@
 	<DefaultProperties Id="AntiAircraft.S-60" Base="AntiAircraft.AAA">
 		<Criteria>
 			<Type>AntiAircraft</Type>
-			<Name>S-60</Name> 
+			<Name>S-60</Name>
 		</Criteria>
 		<Properties>
 			<ShortName>S-60</ShortName>
