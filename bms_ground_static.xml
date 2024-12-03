@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <DefaultPropertiesCollection LoadingOrder="0.5">
-    <!-- If enabled, maps Ground+Static objects (all buildings and decorations) to white boxes by default. -->
+    <!-- Maps Ground+Static objects (all buildings and decorations) to white boxes by default. -->
     <!-- 
     
     WARNING: 
@@ -9,7 +9,7 @@
         not emit static objects except in the initial bubble 
     
     -->
-    <!-- <DefaultProperties Id="Core.Building_BMS" Base="Core.Building">
+    <DefaultProperties Id="Core.Building_BMS" Base="Core.Building">
         <Criteria>
             <Type>Ground+Static</Type>
             <Name>*</Name>
@@ -18,7 +18,7 @@
             <AdditionalType>Ground+Static+Building</AdditionalType>
             <Color>White</Color>
         </Properties>
-    </DefaultProperties> -->
+    </DefaultProperties>
 </DefaultPropertiesCollection>
 <!-- 
 
